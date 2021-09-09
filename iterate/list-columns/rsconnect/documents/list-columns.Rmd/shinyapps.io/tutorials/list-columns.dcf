@@ -1,0 +1,12 @@
+name: list-columns
+title: list-columns
+username:
+account: tutorials
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 316520
+bundleId: 3102963
+url: https://tutorials.shinyapps.io/list-columns/
+when: 1588621853.48479
+asMultiple: FALSE
+asStatic: FALSE

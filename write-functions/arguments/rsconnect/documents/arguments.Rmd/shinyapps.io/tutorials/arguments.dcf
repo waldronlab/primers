@@ -1,0 +1,12 @@
+name: arguments
+title: arguments
+username:
+account: tutorials
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 374876
+bundleId: 3102999
+url: https://tutorials.shinyapps.io/arguments/
+when: 1588622349.77148
+asMultiple: FALSE
+asStatic: FALSE
