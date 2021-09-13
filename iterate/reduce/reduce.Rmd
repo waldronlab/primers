@@ -27,7 +27,7 @@ sum(vec)
 
 Can we do this with a list? You bet! But not with `sum()` alone. Like almost all R functions, `sum()` is not written to work with lists.
 
-```{r sum2}
+```{r sum2, eval=FALSE}
 list3 <- list(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 sum(list3)
 ```
@@ -68,7 +68,7 @@ reduce(list3, sum)
 1. then applies your function to the result of the previous step and the next element in the vector
 1. continues this process until no elements are left
 
-```{r echo=FALSE, out.width = "60%"}
+```{r echo=FALSE, out.width = "60%", eval=FALSE}
 knitr::include_graphics("/images/reduce.png")
 ```
 
@@ -76,7 +76,7 @@ knitr::include_graphics("/images/reduce.png")
 
 You can use the `accumulate()` function to see this process in action. It works like `reduce()`, but returns a vector that contains the results from each step of the reduction.
 
-```{r echo=FALSE, out.width = "60%"}
+```{r echo=FALSE, out.width = "60%", eval=FALSE}
 knitr::include_graphics("/images/accumulate.png")
 ```
 
